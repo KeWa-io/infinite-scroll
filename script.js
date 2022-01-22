@@ -4,7 +4,7 @@ const loader = document.getElementById('loader');
 let photosArray = [];
 
 // Unsplash API
-const query = 'puppies and cats';
+const query = 'Cats';
 const count = 10;
 const apiKey = 'Q8xJQWRRHHgm88uFFtUbwOvCM1Nuz0b9v8r-pA0O63s';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&query=${query}&count=${count}`;
