@@ -9,7 +9,7 @@ let photosArray = [];
 // Unsplash API
 const query = 'Cats';
 const count = 30;
-const apiKey = 'Q8xJQWRRHHgm88uFFtUbwOvCM1Nuz0b9v8r-pA0O63s';
+const apiKey = 'r7i6uoXVRfTUvjbTjM469XJW9mtH100UzIvC0522m9k';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&query=${query}&count=${count}`;
 
 //  Check if all images were loaded
